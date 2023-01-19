@@ -1,0 +1,1380 @@
+@import "_mixin";
+@import "_var";
+@import "_general";
+@import "_container";
+
+@media (min-width: 481px) and (max-width: 770px){
+    .container{
+        width: 700px;
+
+        .link{
+            width: 700px;
+            .a_link{
+                width: 438px;
+            }
+        }
+        .header{
+            .text_header{
+                width: 258px;
+                padding-left: 5px;
+
+                .h1_text_header{
+                    font-size: 30px;
+                    margin-bottom: 5px;
+                }
+        
+                .h2_text_header{
+                    font-size: 24px;
+                }
+        
+                .p_text_header{
+                    font-size: 20px;
+                    margin-top: 2px;
+                }
+
+                .blood277, .blood289{
+                    display: none;
+                }
+
+                .blood306{
+                    display: block;
+                    position: absolute;
+                    top: 54px;
+                    left: 71px;
+                }
+
+                .blood304{
+                    display: block;
+                    position: absolute;
+                    top: 53px;
+                    left: -12px;
+                    z-index: -1;
+                }
+            }
+
+            .div_img_header{
+                width: 445px;
+                height: 249px;
+                margin-left: 0;
+                
+                .img_header{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+
+        .main{
+            width: 700px;
+            height: 2309px;
+            margin-top: 59px;
+
+            .bandi_ted{
+                margin-bottom: 134px;
+
+                .div_about{
+                    width: 700px;
+                    
+                    hr{
+                        width: 365px;
+                    }
+
+                    p{
+                        font-size: 26px;
+                    }
+
+                    .blood317{
+                        display: block;
+                        position: absolute;
+                        left: 1px;
+                    }
+
+                    .blood291{
+                        display: none;
+                    }
+                }
+
+                .div_content{
+                    width: 640px;
+                    margin-top: 28px;
+
+                    .div_content_one{
+                        width: 166px;
+                        margin-top: 101px;
+
+                        .h1{
+                            margin-top: 26px;
+                            font-size: 30px;
+                        }
+
+                        .red{
+                            font-size: 13px;
+                            margin-bottom: 26px;
+                        }
+
+                        .text{
+                            font-size: 19px;
+                        }
+
+                        .text_absolute{
+                            position: absolute;
+                            width: 488px;
+                            top: 603px;
+                            left: 188px;
+                        }
+
+                        .blood309{
+                            position: absolute;
+                            display: block;
+                            top: 297px;
+                            left: 106px;
+                        }
+
+                        .blood277{
+                            display: none;
+                        }
+                    }
+
+                    .div_content_two{
+                        width: 407px;
+                        height: 519px;
+
+                        .img1{
+                            display: none;
+                        }
+
+                        .img2{
+                            display: block;
+                        }
+                    }
+                }
+            }
+
+            .features{
+                width: 700px;
+                height: 35px;
+
+                hr{
+                    width: 472px;
+                }
+
+                .h1{
+                    font-size: 26px;
+                }
+
+                .blood295{
+                    top: 720px;
+                    left: 552px;
+                }
+
+                .grid{
+                    width: 700px;
+                    padding: 33px 36px 0 28px;
+                    grid-template-columns: 25px 170px 30px 37px 138px 24px 170px 42px;
+                    grid-template-rows: 35px 110px 25px 32px 148px 23px 130px 17px;
+
+                    div{
+                        padding: 0;
+                        border: none;
+
+                        p{
+                            font-size: 19px;
+                        }
+
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+
+                    .img_features01{
+                        grid-column: 2/3;
+                        grid-row: 1/4;
+                        width: 170px;
+                        height: 170px;
+                    }
+
+                    .p_features02{
+                        grid-column: 4/8;
+                        grid-row: 2/3;
+                        width: 369px;
+                    }
+
+                    .p_features01{
+                        grid-column: 2/6;
+                        grid-row: 5/6;
+                        width: 371px;
+                    }
+
+                    .img_features03{
+                        grid-column: 7/8;
+                        grid-row: 4/6;
+                        width: 170px;
+                        height: 170px;
+                    }
+
+                    .img_features02{
+                        grid-column: 2/3;
+                        grid-row: 6/9;
+                        width: 170px;
+                        height: 170px;
+                    }
+
+                    .p_features03{
+                        grid-column: 5/9;
+                        grid-row: 7/8;
+                        width: 374px;
+                    }
+
+
+                    .ok02{
+                        grid-column: 1/6;
+                        grid-row: 5/6;
+                        border-bottom: 1px solid #000;
+                        margin-bottom: 10px;
+                    }
+
+                    .ok01{
+                        grid-column: 4/9;
+                        grid-row: 2/3;
+                        border-bottom: 1px solid #000;
+                    }
+
+                    .ok03{
+                        grid-column: 4/9;
+                        grid-row: 8/8;
+                        border-bottom: 1px solid #000;
+                        margin-bottom: 10px;
+                    }
+
+                    .blood206{
+                        display: none;
+                    }
+
+                    .blood322{
+                        display: block;
+                        position: absolute;
+                        top: 1035px;
+                        right: 36px;
+                    }
+                }
+            }
+
+            .about_people{
+                margin-top: 95px;
+
+                .hr01{
+                    align-self: flex-end;
+                }
+
+                .hr02{
+                    align-self: flex-start;
+                }
+
+                .h1{
+                    font-size: 26px;
+                }
+
+
+                .about_each{
+                    width: 672px;
+                    margin: 0;
+                    margin-top: 29px;
+                    margin-left: 14px;
+                    display: grid;
+                    grid-template-columns: repeat(48, 14px);
+                    grid-template-rows: repeat(58, 14px);
+                    position: relative;
+
+                    div{
+                        border: none;
+                        margin: 0;
+                    }
+
+                    p{
+                        font-size: 16px;
+                        font-family: 'Lora', serif;
+                    }
+
+                    .h1r{
+                        font-size: 19px;
+                    }
+
+                    .h1{
+                        font-size: 17px;
+                        color: #000;
+                    }
+
+                    .img{
+                        width: 100px;
+                        height: 130px;
+                    }
+
+                    .blood209{
+                        display: none;
+                    }
+        
+                    .blood298{
+                        display: none;
+                    }
+
+                    /*бодя*/
+
+                    .pb01{
+                        grid-column: 1/10;
+                        grid-row: 45/58;
+                        width: 128px;
+                        margin: 0;
+                    }
+
+                    .pb03{
+                        grid-column: 11/20;
+                        grid-row: 44/59;
+                        width: 120px;
+                    }
+
+                    .h1br{
+                        grid-column: 9/14;
+                        grid-row: 35/37;
+                        display: flex;
+                        align-items: center;
+                    }
+
+                    .imgb{
+                        grid-column: 1/8;
+                        grid-row: 35/44;
+                    }
+
+                    .h1b{
+                        grid-column: 9/19;
+                        grid-row: 37/38;
+                        display: flex;
+                        align-items: flex-start;
+                    }
+
+                    .pb02{
+                        grid-column: 9/17;
+                        grid-row: 39/43;
+                        width: 120px;
+                        margin: 0;
+                    }
+
+                    /*саша*/
+
+                    .h1sr{
+                        grid-column: 9/25;
+                        grid-row: 2/4;
+                        width: 238px;
+                        display: flex;
+                        align-items: start;
+                    }
+
+                    .h1s{
+                        width: 252px;
+                        grid-column: 9/26;
+                        grid-row: 4/5;
+                        margin: 0;
+                    }
+
+                    .ps{
+                        grid-column: 9/44;
+                        grid-row: 5/10;
+                        width: 521px;
+                    }
+
+                    .imgs{
+                        grid-column: 1/8;
+                        grid-row: 1/10;
+                    }
+
+                    /*юра*/
+
+                    .h1yr{
+                        grid-column: 32/40;
+                        grid-row: 36/38;
+                        display: flex;
+                        align-items: center;
+                    }
+
+                    .h1y{
+                        grid-column: 32/44;
+                        grid-row: 38/40;
+                        text-align: left;
+                        display: flex;
+                        align-items: center;
+                    }
+
+                    .py01{
+                        grid-column: 34/46;
+                        grid-row: 41/51;
+                        margin: 0;
+                    }
+
+                    .py02{
+                        grid-column: 24/33;
+                        grid-row: 45/52;
+                        width: 121px;
+                        margin: 0;
+                    }
+
+                    .imgy{
+                        grid-column: 24/31;
+                        grid-row: 35/44;
+                    }
+
+                    /*яся*/
+
+                    .h1zr{
+                        grid-column: 31/41;
+                        grid-row: 13/14;
+                        display: flex;
+                        align-items: start;
+                    }
+
+                    .h1z{
+                        grid-column: 31/48;
+                        grid-row: 15/16;
+                        text-align: left;
+                    }
+
+                    .pz01{
+                        grid-column: 23/48;
+                        grid-row: 22/26;
+                        width: 366px;
+                        text-align: center;
+                    }
+
+                    .pz02{
+                        grid-column: 23/41;
+                        grid-row: 28/31;
+                        width: 276px;
+                        margin-top: 5px;
+                    }
+
+                    .pz03{
+                        grid-column: 33/43;
+                        grid-row: 17/20;
+                        width: 190px;
+                        font-family: 'Alegreya', serif;
+                    }
+
+                    .imgz{
+                        grid-column: 23/30;
+                        grid-row: 12/20;
+                    }
+
+
+                    .eachinpfoto{
+                        grid-column: 1/20;
+                        grid-row: 12/32;
+                        width: 268px;
+                        height: 293px;
+                        margin: 0;
+                    }
+
+                    .img001{
+                        display: none;
+                    }
+
+                    .img002{
+                        display: block;
+                    }
+
+                    .ok1{
+                        grid-column: 1/48;
+                        grid-row: 10/11;
+                        border-bottom: 1px solid #000;
+                    }
+
+                    .ok2{
+                        grid-column: 1/20;
+                        grid-row: 33/34;   
+                        border-bottom: 1px solid #000;
+                    }
+
+                    .ok3{
+                        grid-column: 23/48;
+                        grid-row: 33/34;  
+                        border-bottom: 1px solid #000;
+                    }
+
+                    .ok4{
+                        grid-column: 21/22;
+                        grid-row: 12/57;
+                        border-right: 1px solid #000;
+                    }
+
+
+                    .black{
+                        width: 56px;
+                        height: 9px;
+                        position: absolute;
+                        top: 508px;
+                        left: 351px;
+                    }
+
+
+                    .blood209, .blood298{
+                        display: none;
+                    }
+
+                    .blood324{
+                        display: block;
+                        position: absolute;
+                        top: 344px;
+                        left: 600px;
+                    }
+
+                    .blood325{
+                        display: block;
+                        position: absolute;
+                        top: 540px;
+                        left: 219px;
+                    }
+
+                    .img2{
+                        display: block;
+                    }
+
+                    .img1{
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        /*footer*/
+
+        .footer{
+            width: 700px;
+            height: 350px;
+            padding: 16px 8px 29px 15px;
+            margin-top: 10px;
+
+            .networks{
+                height: 189px;
+
+                .net{
+                    height: 88px;
+
+                    .h1{
+                        font-size: 18px;
+                    }
+
+                    .p{
+                        font-size: 16px;
+                        height: 57px;
+                    }
+                }
+            }
+
+            .logo{
+                width: 430px;
+        
+                .h1{
+                    font-size: 30px;
+                }
+        
+                .h2{
+                    font-size: 25px;
+                }
+        
+                hr{
+                    width: 430px;
+                    margin-top: 96px;
+                    margin-bottom: 13px;
+                }
+        
+                .text{
+                    width: 430px;
+                    font-size: 13px;
+                }
+            }
+
+            .location{
+                width: 127px;
+        
+                .p01{
+                    font-size: 18px;
+                }
+        
+                .p02{
+                    width: 73px;
+                    font-size: 18px;
+                    margin-left: 27px;
+                    margin-top: 0;
+                }
+            }
+
+            .blood302{
+                display: block;
+                position: absolute;
+                top: 115px;
+                left: 333px;
+            }
+        
+            .blood303{
+                display: block;
+                position: absolute;
+                top: 171px;
+                left: 600px;
+            }
+
+            .blood288, .blood287{
+                display: none;
+            }
+        }
+    }
+}
+
+@media(max-width: 480px){
+    .container{
+        max-width: 450px;
+        position: relative;
+        .link{
+            #toggle {
+                display: block;
+                position: absolute;
+                width: 46px;
+                cursor: pointer;
+
+                span{
+                    position: absolute;
+                    width: 100%;
+                    height: 3px;
+                    background: white;
+                    -webkit-transition: 0.3s;
+                    transition: 0.3s;
+                    border-radius: 50px;
+                    margin-left: 20px;
+                }
+
+                span:before, span:after{
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 3px;
+                    background: white;
+                    -webkit-transition: 0.3s;
+                    transition: 0.3s;
+                    border-radius: 50px;
+                }
+
+                span:before{
+                    bottom: 9px;
+                }
+                span:after {
+                    top: 9px;
+                }
+            }
+
+            #burger:checked ~ #toggle{
+                span{
+                    background: transparent;
+                }
+
+                span:before{
+                    transform: rotate(45deg);
+                    bottom: 0;
+                }
+        
+                span:after{
+                    transform: rotate(-45deg);
+                    top: 0;
+                }
+            }
+
+            .img_logo{
+                display: none;
+            }
+
+            .a_link{
+                width: 142px;
+                height: 250px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                background: rgb(0, 0, 0);   
+                overflow: hidden;
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+                position: absolute;
+                left: -100%;
+                top: 73px;
+                opacity: 0;
+                visibility: hidden;
+                -webkit-transition: 0.3s;
+                transition: 0.3s;
+                z-index: 1;
+                
+                a{
+                    width: 90%;
+                    text-align: center;
+                }
+
+                a:hover{
+                    text-decoration: none;
+                }
+
+                .a01{
+                    border-top: 1px solid rgb(255, 255, 255);
+                    border-bottom: 1px solid rgb(255, 255, 255);
+                }
+            }
+
+            #burger:checked ~ .a_link{
+                left: 13px;
+                opacity: 1;
+                visibility: visible;
+            }
+
+            .death{
+                display: block;
+                color: white;
+                margin: 0 auto;
+                text-transform: uppercase;
+            }
+        }
+
+        .header{
+            height: 164px;
+            .text_header{
+                padding-left: 20px;
+                width: 130px;
+                height: 90px;
+                margin-top: 45px;
+                
+                .h1_text_header{
+                    font-size: 25px;
+                }
+        
+                .h2_text_header{
+                    font-size: 19px;
+                }
+        
+                .p_text_header{
+                    display: none;
+                }
+
+                .blood277, .blood289{
+                    display: none;
+                }
+
+                .blood364{
+                    display: block;
+                    position: absolute;
+                    top: 62px;
+                    left: 72px;
+                }
+
+                .blood362{
+                    display: block;
+                    position: absolute;
+                    top: 69px;
+                    left: -5px;
+                }
+            }
+            .div_img_header{
+                width: 309px;
+                height: 193px;
+                margin-left: 12px;
+            }
+        }
+
+        .main{
+            width: 450px;   
+            height: 2820px;
+            margin-top: 26px;
+    
+            .bandi_ted{
+                margin-bottom: 13px;
+    
+                .div_about{
+                    margin-bottom: 6px;
+    
+                    hr{
+                        width: 215px;
+                    }
+    
+                    .blood291{
+                        display: none;
+                    }
+    
+                    .blood378{
+                        display: block;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                    }
+    
+                    p{
+                        font-size: 18px;
+                    }
+                }
+    
+                .div_content{
+                    width: 330px;
+                    margin: 0 auto;
+                    display: flex;
+                    flex-direction: column-reverse;
+    
+                    .div_content_one{
+                        width: 330px;
+                        display: grid;
+                        grid-template-columns: 83px 80px 30px 107px 30px;
+                        grid-template-rows: 90px 28px 80px 91px;
+                        grid-row-gap: 11px;
+    
+                        .dandruff{
+                            grid-column: 2/3;
+                            grid-row: 3/4;
+                        }
+        
+                        .h1{
+                            font-size: 24px;
+                            margin: 0;
+                            text-align: center;
+                            grid-column: 1/6;
+                            grid-row: 2/3;
+                        }
+        
+                        .red{
+                            margin: 0;
+                            font-size: 12px;
+                            grid-column: 4/5;
+                            grid-row: 3/4;
+                            display: flex;
+                            align-items: center;
+                        }
+    
+                        .t01{
+                            grid-column: 1/6;
+                            grid-row: 1/2;
+                        }
+    
+                        .t02{
+                            grid-column: 1/6;
+                            grid-row: 4/5;
+                        }
+        
+                        .text{
+                            font-size: 17px;
+                            margin: 0;
+                            text-align: center;
+                        }
+        
+                        .blood277{
+                            display: none;
+                        }
+    
+                        .blood372{
+                            display: block;
+                            position: absolute;
+                            top: 577px;
+                            left: 230px;
+                        }
+                    }
+                    .div_content_two{
+                        width: 330px;
+                        height: 410px;
+                        margin-bottom: 13px;
+
+                        .img1{
+                            display: none;
+                        }
+
+                        .img3{
+                            display: block;
+                        }
+                    }
+                }
+            }
+    
+            .features{
+                width: 450px;
+                height: 23px;
+    
+                hr{
+                    width: 290px;
+                }
+    
+                .h1{
+                    font-size: 18px;
+                }
+    
+                .blood382{
+                    display: block;
+                    position: absolute;
+                    top: 792px;
+                    left: 330px;
+                }
+        
+                .blood295{
+                    display: none;
+                }
+    
+                .grid{
+                    width: 450px;
+                    padding-left: 75px;
+                    padding-top: 52px;
+                    display: grid;
+                    grid-template-columns: 20px 100px 11px 165px 7px;
+                    grid-template-rows: 244px 10px 10px 284px 10px 10px 240px 10px;
+                    margin: 0 auto;
+    
+                    div{
+                        padding: 0;
+                    }
+        
+                    .ok01, .ok02, .ok03, .ok04, .hrr{
+                       border: none;
+                    }
+        
+                    p{
+                        font-size: 17px;
+                    }
+    
+                    .img00{
+                        display: flex;
+                        align-items: center;
+    
+                        img{
+                            width: 100px;
+                        }
+                    }
+    
+                    .img_features01{
+                        grid-column: 2/3;
+                        grid-row: 1/2;
+                    }
+    
+                    .p_features02{
+                        grid-column: 4/5;
+                        grid-row: 1/2;
+                        width: 140px;
+                    }
+    
+                    .img_features03{
+                        grid-column: 2/3;
+                        grid-row: 4/5;
+                    }
+    
+                    .p_features01{
+                        grid-column: 4/5;
+                        grid-row: 4/5;
+                        width: 140px;
+                    }
+    
+                    .img_features02{
+                        grid-column: 2/3;
+                        grid-row: 7/8;
+                        padding: 0;
+                    }
+    
+                    .p_features03{
+                        grid-column: 4/5;
+                        grid-row: 7/8;
+                        width: 165px;
+                    }
+    
+                    .ok01{
+                        grid-column: 1/6;
+                        grid-row: 2/3;
+                        border-bottom: 1px solid #000;
+                    }
+    
+                    .ok02{
+                        grid-column: 1/6;
+                        grid-row: 5/6;
+                        border-bottom: 1px solid #000;
+                    }
+    
+                    .ok03{
+                        grid-column: 1/6;
+                        grid-row: 8/9;
+                        border-bottom: 1px solid #000;
+                    }
+    
+                    .blood383{
+                        display: block;
+                        position: absolute;
+                        top: 1284px;
+                        left: 345px;
+                    }
+                    
+                    .blood206{
+                        display: none;
+                    }
+                }
+            }
+    
+            .about_people{
+                margin-top: 50px;
+    
+                .h1{
+                    font-size: 18px;
+                }
+    
+                .about_each{
+                    width: 400px;
+                    height: 1024px;
+                    margin-top: 23px;
+                    display: grid;
+                    grid-template-columns: repeat(25, 16px);
+                    grid-template-rows: repeat(64, 16px);
+                    margin-left: 25px;
+                    font-size: 13px;
+    
+                    div{
+                        display: block;
+                        margin: 0;
+                    }
+    
+                    .ok{
+                        border: none;
+                        width: 400px;
+                    }
+    
+                    .h1r{
+                        font-size: 14px;
+                    }
+    
+                    .img{
+                        width: 100px;
+                    }
+    
+                    /*бодя*/
+        
+    
+                    .imgb{
+                        grid-column: 1/7;
+                        grid-row: 53/61;
+                    }
+    
+                    .h1br{
+                        grid-column: 8/11;
+                        grid-row: 53/54;
+                        width: 56px;
+                        display: block;
+                    }
+    
+                    .h1b{
+                        grid-column: 8/15;
+                        grid-row: 54/55;
+                        width: 113px;
+                        font-family: 'Lora', serif;
+                        font-size: 13px;
+                        display: block;
+                        text-align: left;
+                        margin-top: 5px;
+                    }
+    
+                    .pb03{
+                        grid-column: 8/26;
+                        grid-row: 55/60;
+                        width: 305px;
+                        margin-top: 5px;
+                    }
+    
+                    .pb02{
+                        grid-column: 8/17;
+                        grid-row: 59/61;
+                        width: 144px;
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 5px;
+                    }
+    
+                    .pb01{
+                        grid-column: 1/25;
+                        grid-row: 61/65;
+                        width: 403px;
+                        margin-top: 5px;
+                    }
+    
+                    /*саша*/
+                    
+                    .imgs{
+                        grid-column: 1/7;
+                        grid-row: 1/9;
+                    }
+    
+                    .h1sr{
+                        grid-column: 8/18;
+                        grid-row: 1/3;
+                        width: 158px;
+                    }
+    
+                    .h1s{
+                        grid-column: 8/20;
+                        grid-row: 2/4;
+                        font-size: 13px;
+                        font-family: 'Lora', serif;
+                        width: 193px;
+                        margin-top: 4px;
+                    }
+    
+                    .ps{
+                        grid-column: 8/25;
+                        grid-row: 4/9;
+                        width: 291px;
+                        margin: 0;
+                    }
+    
+                    /*юра*/
+        
+                    .imgy{
+                        grid-column: 1/7;
+                        grid-row: 43/51;
+                    }  
+    
+                    .h1yr{
+                        grid-column: 8/13;
+                        grid-row: 43/44;
+                        width: 81px;
+                        display: block;
+                    }
+    
+                    .h1y{
+                        grid-column: 8/16;
+                        grid-row: 44/45;
+                        width: 159px;
+                        font-size: 13px;
+                        font-family: 'Lora', serif;
+                        text-align: left;
+                        margin-top: 5px;
+                    }
+    
+                    .py01{
+                        grid-column: 8/25;
+                        grid-row: 45/49;
+                        width: 299px;
+                        margin: 0;
+                        display: flex;
+                        align-items: center;
+                    }
+                    
+                    .py02{
+                        grid-column: 8/23;
+                        grid-row: 48/51;
+                        width: 267px;
+                        margin: 0;
+                        display: flex;
+                        align-items: center;
+                    }
+    
+                    /*яся*/
+        
+                    .pz03{
+                        grid-column: 1/8;
+                        grid-row: 11/15;
+                        padding-left: 5px;
+                        width: 110px;
+                        display: flex;
+                        align-items: center;
+                    } 
+    
+                    .pz02{
+                        grid-column: 1/9;
+                        grid-row: 15/20;
+                        width: 141px;
+                        display: flex;
+                        align-items: center;
+                    }
+    
+                    .h1zr{
+                        grid-column: 14/20;
+                        grid-row: 11/12;
+                        width: 100px;
+                        display: block;
+                        text-align: left;
+                        margin-right: 11px;
+                    }
+    
+                    .h1z{
+                        grid-column: 8/20;
+                        grid-row: 12/14;
+                        font-size: 13px;
+                        font-family: 'Lora', serif;
+                        text-align: right;
+                        display: flex;
+                        align-items: center;
+                        justify-content: end;
+                        margin-right: 5px;
+                    }
+    
+                    .pz01{
+                        grid-column: 9/20;
+                        grid-row: 14/21;
+                        width: 172px;
+                        text-align: center;
+                        margin-left: 5px;
+                    }
+    
+                    .imgz{
+                        grid-column: 20/26;
+                        grid-row: 11/19;
+                    }
+    
+    
+                    .eachinpfoto{
+                        width: 268px;
+                        grid-column: 5/21;
+                        grid-row: 23/41;
+                        margin: 0;
+                    }
+
+                    .img001{
+                        display: none;
+                    }
+
+                    .img003{
+                        display: block;
+                    }
+    
+    
+                    .ok1{
+                        grid-column: 1/26;
+                        grid-row: 9/10;
+                        border-bottom: 1px solid #000;
+                    }
+    
+                    .ok2{
+                        grid-column: 1/26;
+                        grid-row: 21/22;
+                        border-bottom: 1px solid #000;
+                    }
+    
+                    .ok3{
+                        grid-column: 1/26;
+                        grid-row: 41/42;
+                        border-bottom: 1px solid #000;
+                    }
+    
+                    .ok4{
+                        grid-column: 1/26;
+                        grid-row: 51/52;
+                        border-bottom: 1px solid #000;
+                    }
+
+
+                    .black{
+                        width: 56px;
+                        height: 9px;
+                        position: absolute;
+                        top: 703px;
+                        left: 28px;
+                    }
+
+    
+                    .blood209, .blood298{
+                        display: none;
+                    }
+    
+                    .blood388{
+                        display: block;
+                        position: absolute;
+                        top: 190px;
+                        left: 81px;
+                    }
+    
+                    .blood386{
+                        display: block;
+                        position: absolute;
+                        top: 920px;
+                        left: 335px;
+                    }
+
+                    .img2{
+                        display: block;
+                    }
+
+                    .img1{
+                        display: none;
+                    }
+                }
+            }
+        }
+    
+        .footer{
+            width: 450px;
+            height: 241px;
+            padding: 15px;
+    
+            .networks{
+                height: 107px;
+    
+                .net{
+                    height: 49px;
+    
+                    .h1{
+                        font-size: 12px;
+                    }
+        
+                    .p{
+                        font-size: 10px;
+                        height: 33px;
+                    }
+                }
+            }
+    
+            .logo{
+                width: 295px;
+        
+                .h1{
+                    font-size: 23px;
+                    margin-bottom: 0;
+                }
+        
+                .h2{
+                    font-size: 18px;
+                    text-transform: uppercase;
+                }
+        
+                hr{
+                    width: 295px;
+                    margin-top: 65px;
+                    margin-bottom: 15px;
+                }
+        
+                .text{
+                    width: 279px;
+                    font-size: 8px;
+                }
+            }
+    
+            .location{
+                width: 80px;
+        
+                .p01{
+                    font-size: 12px;
+                }
+        
+                .p02{
+                    width: 46px;
+                    font-size: 12px;
+                    margin-left: 15px;
+                    margin-top: 5px;
+                }
+            }
+    
+            .blood360{
+                display: block;
+                position: absolute;
+                top: 82px;
+                left: 222px;
+            }
+        
+            .blood361{
+                display: block;
+                position: absolute;
+                top: 137px;
+                left: 392px;
+            }
+    
+            .blood287, .blood288{
+                display: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+@import "_mixin";
+@import "_var";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/*    font-family: 'DM Sans', sans-serif;
+
+    font-family: 'Junge', serif;
+
+    font-family: 'Jura', sans-serif; 
+        
+    font-family: 'Alegreya', serif;
+            
+    font-family: 'Lora', serif;
+*/

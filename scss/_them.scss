@@ -1,0 +1,670 @@
+@import "_general";
+@import "_container";
+
+.main3{
+    width: 100%;
+    position: relative;
+    margin-top: 49px;
+
+    /* На кого ми полюємо?*/
+    
+    .hunt{
+        width: 1044px;
+        margin: 0 auto;
+
+        .div_about{
+            display: flex;
+            flex-direction: column;
+            align-items: center;    
+            height: 43px;
+            font-family: 'Lora', serif;
+            font-size: 30px;
+            margin-bottom: 27px;
+
+            .hr01{
+                width: 335px;
+            }
+
+            .hr02{
+                width: 245px;
+            }
+        }
+
+        .div_content{
+            font-family: 'Jura', sans-serif; 
+            font-size: 25px;
+            display: flex;
+            justify-content: space-between;
+
+
+            .first{
+                width: 625px;
+
+                .shadov{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+
+                p{
+                    margin-top: 25px;
+                }
+                
+                .p02{
+                    display: none;
+                }
+
+                .blood766{
+                    position: absolute;
+                    top: 622px;
+                    left: 326px;
+                }
+
+                .blood836{
+                    display: none;
+                }
+            }
+
+            .hr{
+                width: 1px;
+                height: 244px;
+                border-left: 1px solid #000;
+                margin-top: 234px;
+            }
+
+            .second{
+                width: 358px;
+
+                p{
+                    margin-bottom: 25px;
+                }
+                
+                .p02{
+                    display: none;
+                }
+            }
+        }
+    }
+
+    /*Злочинці*/
+
+    .criminals{
+        width: 1050px;
+        margin: 0 auto;
+        margin-top: 117px;
+
+        .div_about{
+            display: flex;
+            flex-direction: column;
+            align-items: center;    
+            height: 43px;
+            font-family: 'Lora', serif;
+            font-size: 30px;
+            margin-bottom: 27px;
+
+            .hr01{
+                width: 103px;
+            }
+
+            .hr02{
+                width: 154px;
+            }
+        }
+
+        .div_content{
+            display: flex;
+            justify-content: space-between;
+
+            .text{
+                width: 228px;
+
+                .h1{
+                    margin-bottom: 11px;
+                    height: 36px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    font-family: 'Lora', serif;
+                    font-size: 26px;
+
+                    hr{
+                        width: 53px;
+                    }
+
+                    .blood777{
+                        position: absolute;
+                        top: 854px;
+                        left: 574px;
+                    }
+
+                    .blood846{
+                        display: none;
+                    }
+                }
+
+                .textt{
+                    text-align: center;
+                    font-family: 'Jura', sans-serif; 
+                    font-size: 19px;
+                }
+            }
+
+            .img2, .img3{
+                display: none;
+            }
+        }
+
+        .about_each01{
+            margin-top: 35px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            .each{
+                width: 460px;
+                height: 290px;
+                font-family: 'Jura', sans-serif; 
+                background-color: #000;
+                color: white;
+
+                .line{
+                    display: flex;
+
+                    img{
+                        width: 130px;
+                        height: 153px;
+                    }
+                    
+                    .text{
+                        margin-top: -6px;
+
+                        .h1{
+                            font-family: 'Lora', serif;
+                            font-size: 25px;
+                            margin-bottom: 6px;
+                        }
+
+                        .t{
+                            width: 296px;
+                            font-size: 18px;
+                            margin-top: 9px;
+                        }
+                    }
+                }
+
+                .textt{
+                    margin-top: 12px;
+                    font-size: 19px;
+                }
+            }
+
+            .each11{
+                padding: 17px 0 0 15px;
+
+                .line{
+                    
+                    img{
+                        margin-right: 10px;
+                    }
+                }
+            }
+            
+            .each22{
+                padding: 17px 15px 0 0;
+
+                .line{
+                    flex-direction: row-reverse;
+
+                    img{
+                        margin-left: 10px;
+                    }
+
+                    .text{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: end;
+
+                        .t{
+                            width: 274px;
+                            text-align: right;
+                        }
+                    }
+                }
+
+                .textt{
+                    text-align: right;
+                    width: 433px;
+                    margin-left: 12px;
+                }
+            }
+
+            .each01{
+                margin-bottom: 35px;
+
+                .textt{
+                    width: 390px;
+                }
+            }
+
+            .each02{
+
+                .line{
+
+                    .text{
+                        
+                        .t{
+                            width: 249px;
+                            font-size: 19px;
+                        }
+                    }
+                }
+            }
+
+            .each03{
+
+                .line{
+
+                    .text{
+
+                        .t{
+                            width: 290px;
+                            font-size: 19px;
+                        }
+                    }
+                }
+
+                .textt{
+                    width: 415px;
+                }
+            }
+
+            .each04{
+
+                .line{
+
+                    .text{
+
+                        .t{
+                            font-size: 19px;
+                        }
+                    }
+                }
+
+                .textt{
+                    width: 390px;
+                    margin-left: 55px;
+                }
+            }
+
+            .blood778{
+                position: absolute;
+                top: 1877px;
+                left: 920px;
+            }
+        }
+
+        .about_each02{
+            display: none;
+        }
+    }
+
+    /*Серійні вбивці*/
+
+    .killers{
+        margin: 0 auto;
+        width: 1040px;
+        margin-top: 108px;
+
+        .flex{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-bottom: 27px;
+
+            .underline{
+                width: 507px;
+                height: 297px;
+                margin-bottom: 27px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .h1{
+                    font-family: 'Lora', serif;
+                    font-size: 26px;
+                }
+
+                hr{
+                    width: 117px;
+                    margin-bottom: 30px;
+                }
+
+                .t{
+                    font-family: 'Jura', sans-serif; 
+                    font-size: 24px;
+                }
+            }
+
+            .img{
+                width: 507px;
+                height: 297px;
+            }
+
+            .img1{
+                display: none;
+            }
+        }
+
+        .about_each1{
+
+            .each{
+                background-color: #000;
+                color: white;
+                margin-bottom: 23px;
+            }
+
+            .each01{
+                display: grid;
+                grid-template-columns: 16px 130px 8px 120px 27px 11px 715px 8px 5px;
+                grid-template-rows: 16px 13px 63px 6px 28px 43px 5px 10px;
+
+                img{
+                    grid-column: 2/3;
+                    grid-row: 2/6;
+                }
+
+                .h1{
+                    grid-column: 4/5;
+                    grid-row: 3/4;
+                    font-family: 'Lora', serif;
+                    font-size: 25px;
+                }
+
+                .h1r{
+                    grid-column: 4/6;
+                    grid-row: 5/6;
+                }
+
+                .t{
+                    grid-column: 7/8;
+                    grid-row: 2/4;
+                    font-family: 'Jura', sans-serif; 
+                    font-size: 20px;
+                    text-align: center;
+                }
+
+                .hr{
+                    grid-column: 7/8;
+                    grid-row: 2/4;
+                    border-bottom: 1px solid rgb(255, 255, 255);
+                }
+
+                .tr{
+                    width: 761px;
+                    grid-column: 5/9;
+                    grid-row: 5/9;
+                    font-family: 'Jura', sans-serif; 
+                    font-size: 19px;
+                    text-align: center;
+                }
+            }
+
+            .each02{
+                display: grid;
+                grid-template-columns: 15px 715px 56px 98px 9px 130px 16px;
+                grid-template-rows: 16px 13px 63px 5px 5px 8px 32px 26px 16px;
+
+                img{
+                    grid-column: 6/7;
+                    grid-row: 2/9;
+                }
+
+                .h1{
+                    grid-column: 4/5;
+                    grid-row: 3/5;
+                    font-family: 'Lora', serif;
+                    font-size: 25px;
+                    text-align: center;
+                    width: 87px;
+                    margin-left: 11px;
+                }
+
+                .h1r{
+                    grid-column: 4/5;
+                    grid-row: 7/8;
+                    text-align: right;
+                    width: 100%;
+                    margin: 0;
+                }
+
+                .t{
+                    grid-column: 2/3;
+                    grid-row: 2/4;
+                    font-family: 'Jura', sans-serif; 
+                    font-size: 20px;
+                    text-align: center;
+                }
+
+                .hr{
+                    grid-column: 2/3;
+                    grid-row: 4/5;
+                    border-bottom: 1px solid white;
+                }
+
+                .tr{
+                    grid-column: 2/3;
+                    grid-row: 6/9;
+                    font-family: 'Jura', sans-serif; 
+                    font-size: 20px;
+                    text-align: center;
+                }
+            }
+
+            .each03{
+                display: grid;
+                grid-template-columns: 16px 130px 8px 114px 44px 28px 659px 28px 13px;
+                grid-template-rows: 16px 40px 32px 5px 5px 57px 14px 15px;
+
+                img{
+                    grid-column: 2/3;
+                    grid-row: 2/9;
+                }
+
+                .h1{
+                    grid-column: 4/5;
+                    grid-row: 3/4;
+                    font-family: 'Lora', serif;
+                    font-size: 25px;
+                }
+
+                .h1r{
+                    grid-column: 4/5;
+                    grid-row: 5/7;
+                }
+
+                .t{
+                    grid-column: 7/8;
+                    grid-row: 2/4;
+                    font-family: 'Jura', sans-serif; 
+                    font-size: 20px;
+                    text-align: center;
+                }
+
+                .hr{
+                    grid-column: 6/9;
+                    grid-row: 4/5;
+                    border-bottom: 1px solid white;
+                }
+
+                .tr{
+                    grid-column: 7/8;
+                    grid-row: 6/8;
+                    font-family: 'Jura', sans-serif; 
+                    font-size: 20px;
+                    text-align: center;
+                }
+            }
+
+            .each04{
+                display: grid;
+                grid-template-columns: 17px 32px 650px 32px 35px 117px 10px 130px 16px;
+                grid-template-rows: 16px 10px 61px 6px 5px 59px 11px 16px;
+                
+                img{
+                    grid-column: 8/9;
+                    grid-row: 2/8;
+                }
+
+                .h1{
+                    grid-column: 6/7;
+                    grid-row: 3/4;
+                    font-family: 'Lora', serif;
+                    font-size: 25px;
+                    text-align: right;
+                }
+
+                .h1r{
+                    grid-column: 6/7;
+                    grid-row: 6/7;
+                    text-align: right;
+                }
+
+                .t{
+                    grid-column: 2/5;
+                    grid-row: 2/4;
+                    font-family: 'Jura', sans-serif; 
+                    font-size: 20px;
+                    text-align: center;
+                }
+
+                .hr{
+                    grid-column: 2/5;
+                    grid-row: 4/5;
+                    border-bottom: 1px solid white;
+                }
+
+                .tr{
+                    grid-column: 3/4;
+                    grid-row: 6/8;
+                    font-family: 'Jura', sans-serif; 
+                    font-size: 20px;
+                    text-align: center;
+                }
+            }
+        }
+
+        .about_each2{
+            display: none;
+
+            .each{
+                
+                .img2{
+                    display: none;
+                }
+            }
+        }
+    }
+
+    /*Терористи*/
+
+    .terrorists{
+        width: 1024px;
+        margin: 0 auto;
+
+        .about_general{
+            width: 975px;
+            height: 218px;
+            display: grid;
+            grid-template-columns: 436px 13px 24px 96px 24px 382px;
+            grid-template-rows: 36px 11px 526px;
+
+            img{
+                grid-column: 1/2;
+                grid-row: 1/4;
+            }
+
+            .img2, .img3{
+                display: none;
+            }
+
+            .h1{
+                grid-column: 3/6;
+                grid-row: 1/2;
+                font-family: 'Lora', serif;
+                font-size: 26px;
+            }
+
+            .ok{
+                grid-column: 4/5;
+                grid-row: 1/2;
+                border-bottom: 1px solid #000;
+            }
+
+            .t{
+                width: 526px;
+                grid-column: 3/7;
+                grid-row: 3/4;
+                font-family: 'Jura', sans-serif; 
+                font-size: 24px;
+            }
+        }
+
+        .about_each{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 21px;
+            margin-bottom: 18px;
+
+            .each{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .h1{
+                    font-family: 'Lora', serif;
+                    font-size: 25px;
+                    margin-bottom: 7px;
+                }
+
+                .t{
+                    font-family: 'Jura', sans-serif; 
+                }
+            }
+
+            .each1{
+                width: 298px;
+
+                .t{
+                    font-size: 19px;
+                }
+            }
+
+            .each2{
+                width: 296px;
+
+                .t{
+                    font-size: 21px;
+                    text-align: center;
+                }
+            }
+
+            .each3{
+                width: 299px;
+
+                .t{
+                    font-size: 19px;
+                    text-align: right;
+                }
+            }
+
+            .ok01, .ok02{
+                display: none;
+            }
+
+            .img01, .img02{
+                display: none;
+            }
+        }
+    }
+}
